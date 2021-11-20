@@ -1,0 +1,51 @@
+main{
+    display:flex;
+    flex-direction:column;
+    height:800px;
+}
+.top{
+    flex:1;
+    background-color:darkcyan;
+}
+.top2{
+    flex:0.5;
+    display:flex;
+    flex-direction:row;
+}
+.t1{
+    flex:1;
+    background-color:darkgray;
+}
+.t2{
+    flex:1;
+    background-color:black;
+}
+.t3{
+    flex:1;
+    background-color:darkgray;
+}
+.t4{
+    flex:1;
+    background-color:black;
+}
+.main{
+    flex:3;
+    display:flex;
+    flex-direction:row;
+}
+.lewo{
+    flex:1;
+    background-color:darkkhaki;
+}
+.centrum{
+    flex:2;
+    background-color:khaki;
+}
+.prawo{
+    flex:1;
+    background-color:darkkhaki;
+}
+.bottom{
+    flex:0.5;
+    background-color:darkslategray;
+}

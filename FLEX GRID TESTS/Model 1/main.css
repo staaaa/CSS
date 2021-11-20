@@ -1,0 +1,13 @@
+main{
+    display:flex;
+    flex-direction:column;
+    height:800px;
+}
+.gora{
+    flex:1;
+    background-color:lightblue;
+}
+.dol{
+    flex:3;
+    background-color:red;
+}

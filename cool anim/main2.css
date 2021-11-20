@@ -1,0 +1,157 @@
+.box{
+    width:90px;
+    height:90px;
+    background-color:black;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    margin:auto;
+    animation:appear 3s 0.5s both;
+    transition:background-color 0.25s 0.25s ease-in-out;
+}
+.dot{
+    position:absolute;
+    width:24px;
+    height:24px;
+    background-color:black;
+    border-radius:50px;
+    border:none;
+    animation:kropki 1.5s 3.5s both;
+}
+.dot::after{
+    content:'';
+    width:32px;
+    height:32px;
+    border: 2px solid black;
+    background-color:transparent;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:50px;
+    transition: opacity 0.25s ease-in-out;
+}
+.dotleft{
+    left:20%;
+    top:50%;
+    transform:translateY(-50%);
+    transition: 0.50s;
+}
+.dotright{
+    right:20%;
+    top:50%;
+    transform:translateY(-50%);
+    transition: 0.50s;
+}
+.dottop{
+    left:49.5%;
+    top:20%;
+    transform:translateY(-50%);
+    transition: 0.50s;
+}
+.dotbottom{
+    left:49.5%;
+    bottom:20%;
+    transform:translateY(-50%);
+    transition: 0.50s;
+}
+.box2{
+    width:90px;
+    height:90px;
+    background-color:black;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    margin:auto;
+    animation:appear2 3s 0.5s both;
+    transition:background-color 0.25s 0.25s ease-in-out;
+}
+.dot:hover::after{
+    opacity:0;
+}
+.dotleft:hover{
+    background-color:red;
+}
+.dotleft:hover ~ .box {
+    background-color:red;
+}
+.dotleft:hover ~ .box2 {
+    background-color:red;
+}
+.dotright:hover{
+    background-color:blue;
+}
+.dotright:hover ~ .box {
+    background-color:blue;
+}
+.dotright:hover ~ .box2 {
+    background-color:blue;
+}
+.dottop:hover{
+    background-color:violet;
+}
+.dottop:hover ~ .box {
+    background-color:violet;
+}
+.dottop:hover ~ .box2 {
+    background-color:violet;
+}
+.dotbottom:hover{
+    background-color:yellow;
+}
+.dotbottom:hover ~ .box {
+    background-color:yellow;
+}
+.dotbottom:hover ~ .box2 {
+    background-color:yellow;
+}
+@keyframes appear{
+    0%{
+        opacity:0;
+        transform:translateY(500px);
+        border-radius:50px;
+    }
+    30%{
+        opacity:1;
+        transform:translateY(0);
+    }
+    80%{
+        transform:rotate(45deg);
+        border-radius:0px;
+    }
+    100%{
+        opacity:1;
+        transform: rotate(45deg) scaleX(5);
+    }
+}
+@keyframes appear2{
+    0%{
+        opacity:0;
+        transform:translateY(500px);
+        border-radius:50px;
+    }
+    30%{
+        opacity:1;
+        transform:translateY(0);
+    }
+    80%{
+        transform:rotate(-45deg);
+        border-radius:0px;
+    }
+    100%{
+        opacity:1;
+        transform: rotate(-45deg) scaleX(5);
+    }
+}
+@keyframes kropki{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}

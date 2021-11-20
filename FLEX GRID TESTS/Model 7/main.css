@@ -1,0 +1,30 @@
+main{
+    display:flex;
+    flex-direction:column;
+    height:800px;
+}
+.top{
+    flex:1;
+    background-color:thistle;
+}
+.mid{
+    display:flex;
+    flex:3;
+    flex-direction:row;;
+}
+.lewo{
+    flex:4;
+    background-color:wheat;
+}
+.centrum{
+    flex:1;
+    background-color:seagreen;
+}
+.dol{
+    flex:1;
+    background-color:skyblue;
+}
+.mid2{
+    display:flex;
+    flex-direction:column;
+}

@@ -1,0 +1,32 @@
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "a b b b"
+        "a c c d"
+        "a c c d"
+        "a c c d";
+    height:800px;
+}
+.a{
+    background-color:red;
+    grid-area:a;
+}
+.b{
+    background-color:cornflowerblue;
+    grid-area:b;
+}
+.c{
+    background-color:darkkhaki;
+    grid-area:c;
+}
+.d{
+    background-color:yellowgreen;
+    grid-area:d;
+}
+.a, .b, .c, .d{
+    width:100%;
+    height:100%;
+    text-align:center;
+}

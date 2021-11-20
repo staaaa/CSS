@@ -1,0 +1,76 @@
+main{
+    display:flex;
+    flex-direction:column;
+    height:800px;
+}
+.top{
+    background-color:firebrick;
+    flex:1;
+}
+.top2{
+    background-color:goldenrod;
+    flex:0.25;
+}
+.top3{
+    flex:1;
+    display:flex;
+    flex-direction:row;
+}
+.t1{
+    flex:1;
+    background-color:hotpink;
+}
+.t2{
+    flex:1;
+    background-color:indianred;
+}
+.t3{
+    flex:1;
+    background-color:hotpink;
+}
+.t4{
+    flex:1;
+    background-color:indianred;
+}
+.main{
+    flex:3;
+    display:flex;
+    flex-direction:row;
+}
+.lewo{
+    background-color:firebrick;
+    flex:1;
+}
+.centrum{
+    background-color:aqua;
+    flex:2;
+}
+.prawo{
+    background-color:firebrick;
+    flex:1;
+}
+.bottom1{
+    flex:1;
+    display:flex;
+    flex-direction:row;
+}
+.b1{
+    flex:1;
+    background-color:hotpink;
+}
+.b2{
+    flex:1;
+    background-color:indianred;
+}
+.b3{
+    flex:1;
+    background-color:hotpink;
+}
+.b4{
+    flex:1;
+    background-color:indianred;
+}
+.bottom2{
+    flex:0.5;
+    background-color:goldenrod;
+}

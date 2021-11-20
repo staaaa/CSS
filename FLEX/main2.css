@@ -1,0 +1,20 @@
+html{
+    font-family:sans-serif;
+}
+body{
+    width:70%;
+    max-width:960px;
+    margin:20px auto;
+}
+button{
+    font-size:18px;
+    line-height:1.5;
+    width:15%;
+}
+main{
+    height:150px;
+    border: 1px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}

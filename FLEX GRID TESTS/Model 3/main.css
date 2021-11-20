@@ -1,0 +1,16 @@
+main{
+    display:flex;
+    flex-direction:row;
+}
+.lewo{
+    flex: 1;
+    background-color: aqua;
+}
+.srodek{
+    flex: 8; 
+    background-color:blueviolet;
+}
+.prawo{
+    flex:1;
+    background-color:aqua;
+}

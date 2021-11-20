@@ -1,0 +1,49 @@
+.kontener{
+    display:grid;
+    height:400px;
+    width:500px;
+    padding: 10px;
+    margin: 30px auto;
+    border: 1px solid black;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap:10px;
+    column-gap: 10px;
+    grid-template-areas: 
+        "nadMen nadMen nadMen nadMen nadMen nadMen nadMen nadMen nadMen"
+        "men men men men men men men men men"
+        "podMen podMen podMen podMen podMen podMen pus bk bk"
+        "tr tr tr tr tr tr pus bk bk"
+        "tr tr tr tr tr tr pus bk bk"
+        "tr tr tr tr tr tr pus bk bk"
+        "tr tr tr tr tr tr pus bk bk"
+        "stopa stopa stopa stopa stopa stopa stopa stopa stopa"
+    ;
+}
+.nadMenu{
+    background-color:lightgreen;
+    grid-area:nadMen;
+}
+.menu{
+    background-color:orange;
+    grid-area:men;
+}
+.tresc{
+    background-color:aqua;
+    grid-area:tr;
+}
+.podmenu{
+    background-color:brown;
+    grid-area:podMen;
+}
+.bok{
+    background-color:pink;
+    grid-area:bk;
+}
+.stopka{
+    background-color:orange;
+    grid-area:stopa;
+}
+.puste{
+    grid-area:pus;
+}

@@ -1,0 +1,36 @@
+a{
+    color:aqua;
+}
+p a{
+    color:red;
+}
+.kolor1{
+    color:blue;
+}
+.kolor2{
+    color:crimson;
+}
+p a.kolor3{
+    color:coral;
+}
+.kolor41, .kolor42{
+    color:darkgreen;
+}
+p.kolor5, a.kolor5{
+	color:cornsilk;
+}
+#kolor6{
+	color:darkmagenta;
+}
+a#kolor7{
+	color:darkorange;
+}
+.kolor81, a#kolor8{
+	color:deeppink;
+}
+#kolor9, .kolor91, .kolor92{
+	color:gold;
+}
+#kolor11, #kolor10{
+	color:indianred;
+}
